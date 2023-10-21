@@ -1,0 +1,146 @@
+@media(width>=768px){
+    header{
+        gap: 460px;
+        margin-top: 31px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 105px;
+        margin-left: 39px;
+    }
+    .phone{
+        display: none;
+    }
+    .tablet{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .our{
+        width: 398px;
+    }
+    .cntnr{
+        margin-top: 186px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 32px;
+    }
+    .cntnr1{
+        width: 339px;
+        height: 259px;
+        display: flex;
+        padding-bottom: 80px;
+        margin-top: 24px;
+    }
+    footer{
+        height: 120px;
+        margin-top: 86px;
+        gap: 460px;
+    }
+}
+
+
+@media(width>=1440px){
+    header{
+        gap: 829px;
+        margin-top: 29px;
+    }
+    .skilled{
+        color: var(--13183F, #13183F);
+        font-family: Plus Jakarta Sans;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .get{
+        width: 167px;
+        height: 56px;
+    }
+    .container{
+        margin-top: 178px;
+        margin-left: 165px;
+    }
+    .our{
+        margin-top: 29px;
+        width: 445px;
+        color: var(--83869A, #83869A);
+        font-family: Plus Jakarta Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    .gets{
+        margin-top: 40px;
+        height: 63px;
+    }
+    .tablet{
+        display: none;
+    }
+    .pc{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .cntnr{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .cntnr1{
+        width: 350px;
+        height: 322px;
+    }
+    .check{
+        color: var(--FFFFFF, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Plus Jakarta Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 40px;
+    }
+    .box{
+        width: 350px;
+        height: 322px;
+    }
+    .head{
+        margin-top: 32px;
+        color: var(--13183F, #13183F);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Plus Jakarta Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .learn{
+        margin-top: 24px;
+        color: var(--83869A, #83869A);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Plus Jakarta Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        height: 114px;
+    }
+    footer{
+        gap: 829px;
+    }
+    .skill{
+        color: var(--FFFFFF, #FFF);
+        font-family: Plus Jakarta Sans;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .start{
+        width: 167px;
+        height: 56px;
+    }
+}
